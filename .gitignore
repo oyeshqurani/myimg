@@ -1,0 +1,15 @@
+# myimg.eu.cc - Git Ignore Rules
+
+# Ignore processed image files saved on the server
+uploads/*
+!uploads/.gitkeep
+
+# Ignore OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Ignore temporary text files or development scratchpads
+*.log
+*.tmp
